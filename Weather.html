@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/weather.css">
+    <title>Weather App</title>
+</head>
+
+<body id="body" >
+
+    <div class="weatherbox" aria-placeholder="Search Name">
+
+        <div id="searchbox"><input id="location" type="text"><img id="searchbtn" src="/imgs/ico/search.png"></div>
+
+        <div class="detailsbox">
+            <p id="citytitle"></p>
+            <div class="icobox">
+                <img id="ico" src= alt="">
+                <p id="temp"></p>
+                <p id="weather"></p>
+            </div>
+
+            <div class="tempbox">
+                <img id="humico" src="/imgs/ico/humidity.png" alt="">
+                <p id="humi"></p>
+                <img id="windico" src="/imgs/ico/wind.png" alt="">
+                <p id="wind"></p>
+                <button id="toggle">Conversion</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="/weather.js"></script>
+</body>
+
+</html>
